@@ -1,2 +1,2 @@
-# Handwriting Recognition System
+# Handwriting Recognition System in Java
 Neural Network
