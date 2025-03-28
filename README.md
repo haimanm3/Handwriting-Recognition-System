@@ -58,7 +58,7 @@ You should see:
 Handwriting-Recognition-System/
 ├── Handwriting Recognition System.jar
 ├── demo images/
-├── neural_base/
+├── neuralnetwork/
 └── README.md
 ```
 
