@@ -49,41 +49,78 @@ Handwriting-Recognition-System/
 
 ## ▶️ How to Use
 
-### 💻 Prerequisites
-
-- Java Development Kit (JDK 8 or higher)
-- NetBeans, IntelliJ, or any Java-capable IDE (or use command line)
-
-### 📦 Step 1: Download the Project
-
-- Clone or download the repo and open it in your IDE or extract the files if zipped.
-
-### 🛠 Step 2: Compile the Program
-
-**Using terminal:**
-```bash
-javac -d bin src/*.java
-```
-
-**Or in an IDE:** Right-click project > Build
-
-### ▶️ Step 3: Run the Program
-
-**Using terminal:**
-```bash
-java -cp bin Main
-```
-
-**Or in an IDE:** Right-click `Main.java` > Run
+Follow these steps to run the Handwriting Recognition System using the provided `.jar` file.
 
 ---
 
-## 🧯 Troubleshooting
+### 💻 Prerequisites
 
-- **GUI doesn't open?** Ensure you're running `Main.java`, not individual files.
-- **Java errors?** Confirm you're using JDK 8 or higher and files are in the correct structure.
-- **Drawing not registering?** Use mouse clicks to fill squares; reset the grid to retry.
+- **Java Runtime Environment (JRE 8 or higher)**
+- Optionally, a Java IDE like **NetBeans** or **Eclipse**
 
+---
+
+### 📦 Step 1: Download the Project
+
+1. Go to the [GitHub repository](https://github.com/haimanm3/Handwriting-Recognition-System).
+2. Click the green **Code** button, then **Download ZIP**.
+3. Extract the folder on your machine.
+
+You should see:
+
+```
+Handwriting-Recognition-System/
+├── Handwriting Recognition System.jar
+├── demo images/
+├── neural_base/
+└── README.md
+```
+
+---
+
+### ▶️ Step 2: Run the Application
+
+#### ✅ Option 1: Using Terminal/Command Prompt
+
+1. Open your terminal or command prompt.
+2. Navigate to the folder containing the `.jar` file.
+3. Run:
+
+```bash
+java -jar Handwriting Recognition System.jar
+```
+
+---
+
+#### ✅ Option 2: Without Terminal (Double-click)
+
+1. Navigate to the folder containing `Handwriting Recognition System.jar`.
+2. Double-click the file to run it.
+
+> 💡 If nothing happens:
+> - Ensure you have Java installed.
+> - On some systems, you may need to right-click → **Open With** → **Java**.
+
+---
+
+#### ✅ Option 3: Using an IDE
+
+1. Open your Java IDE (NetBeans, IntelliJ, Eclipse).
+2. Create a new project and add the `.jar` as an external library or run configuration.
+3. Run the project or create a custom run config pointing to the `.jar`.
+
+---
+
+### 🧯 Troubleshooting
+
+- **Java not recognized?**
+  - Ensure Java is installed and added to your system PATH.
+- **GUI not opening?**
+  - Make sure the `.jar` file is not corrupted.
+  - Check that you are using Java 8+.
+- **Double-click doesn't work?**
+  - Try running it via terminal as described above.
+ 
 ---
 
 ## 🖼️ Demo
