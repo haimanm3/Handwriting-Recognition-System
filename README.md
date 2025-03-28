@@ -33,20 +33,6 @@ A Java-based neural network application that recognizes handwritten characters f
 
 ---
 
-## 📂 Project Structure
-
-```
-Handwriting-Recognition-System/
-├── Main.java            # Application entry point
-├── Network.java         # Neural network logic
-├── GUI.java             # User interface code
-├── Util.java            # Helper functions
-├── README.md            # Documentation
-└── *.class              # Compiled files (after build)
-```
-
----
-
 ## ▶️ How to Use
 
 Follow these steps to run the Handwriting Recognition System using the provided `.jar` file.
