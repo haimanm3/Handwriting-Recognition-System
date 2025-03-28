@@ -100,7 +100,7 @@ java -jar Handwriting Recognition System.jar
 1. Open your Java IDE (e.g., IntelliJ, NetBeans, Eclipse).
 2. Create a **new Java project**.
 3. Import the `.java` files from the `src/` folder into the project.
-4. Set `GUI.java` as the main entry point (the file with the `main()` method).
+4. Set `TestHand.java` as the main entry point (the file with the `main()` method).
 5. Build and run the project.
 
 ---
