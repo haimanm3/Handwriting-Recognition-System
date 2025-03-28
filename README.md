@@ -1,2 +1,15 @@
-# Handwriting Recognition System in Java
-Developed a Java-based handwriting recognition application using a feedforward neural network for character classification, incorporating a 5x6 input grid, training and testing modes, and real-time error visualization; designed a user-friendly GUI with Java AWT to enable input drawing and visualizations of neural network layers, weights, and results; and implemented a backpropagation algorithm to optimize network training and improve recognition accuracy.
+# ✍️ Handwriting Recognition System
+
+A simple Java-based feedforward neural network designed to recognize handwritten characters drawn on a 5x6 grid. This project visualizes neural network training in real time and includes both training and testing modes via a user-friendly AWT GUI.
+
+# 🚀 Features
+
+🧠 Feedforward Neural Network for character recognition
+
+🖌️ 5x6 interactive input grid for drawing
+
+🔁 Switch between training and testing modes
+
+📉 Real-time error visualization during training
+
+🖼️ Java AWT-based GUI for an intuitive interface
