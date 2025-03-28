@@ -1,15 +1,94 @@
 # ✍️ Handwriting Recognition System
 
-A simple Java-based feedforward neural network designed to recognize handwritten characters drawn on a 5x6 grid. This project visualizes neural network training in real time and includes both training and testing modes via a user-friendly AWT GUI.
+A Java-based neural network application that recognizes handwritten characters from a 5x6 grid. The project implements a feedforward neural network with backpropagation, complete with GUI input, training/testing modes, and real-time error visualization.
 
-# 🚀 Features
+---
 
-🧠 Feedforward Neural Network for character recognition
+![Built With](https://img.shields.io/badge/Built%20With-Java-blue)
+![Neural Network](https://img.shields.io/badge/AI-Feedforward%20Neural%20Net-orange)
+![Status](https://img.shields.io/badge/Status-Always_Improving-yellow)
 
-🖌️ 5x6 interactive input grid for drawing
+---
 
-🔁 Switch between training and testing modes
+## 🚀 Features
 
-📉 Real-time error visualization during training
+- 🧠 **Feedforward Neural Network** – Learns to recognize characters through training
+- ✍️ **5x6 Input Grid** – Users draw characters on a simplified grid layout
+- 🔁 **Training & Testing Modes** – Switch between learning new characters or evaluating model performance
+- 📉 **Real-time Error Visualization** – Watch the network improve over time
+- 🖼️ **Java AWT GUI** – Intuitive interface for drawing and interaction
+- 🔧 **Backpropagation Algorithm** – Trains the network by minimizing output error
 
-🖼️ Java AWT-based GUI for an intuitive interface
+---
+
+## 🛠️ Technologies Used
+
+| Component            | Technology       |
+|----------------------|------------------|
+| Language             | Java             |
+| ML Logic             | Feedforward Neural Network w/ Backpropagation |
+| GUI                  | Java AWT         |
+| Development Platform | Any Java-capable IDE / Terminal |
+| Version Control      | Git + GitHub     |
+
+---
+
+## 📂 Project Structure
+
+```
+Handwriting-Recognition-System/
+├── Main.java            # Application entry point
+├── Network.java         # Neural network logic
+├── GUI.java             # User interface code
+├── Util.java            # Helper functions
+├── README.md            # Documentation
+└── *.class              # Compiled files (after build)
+```
+
+---
+
+## ▶️ How to Use
+
+### 💻 Prerequisites
+
+- Java Development Kit (JDK 8 or higher)
+- NetBeans, IntelliJ, or any Java-capable IDE (or use command line)
+
+### 📦 Step 1: Download the Project
+
+- Clone or download the repo and open it in your IDE or extract the files if zipped.
+
+### 🛠 Step 2: Compile the Program
+
+**Using terminal:**
+```bash
+javac -d bin src/*.java
+```
+
+**Or in an IDE:** Right-click project > Build
+
+### ▶️ Step 3: Run the Program
+
+**Using terminal:**
+```bash
+java -cp bin Main
+```
+
+**Or in an IDE:** Right-click `Main.java` > Run
+
+---
+
+## 🧯 Troubleshooting
+
+- **GUI doesn't open?** Ensure you're running `Main.java`, not individual files.
+- **Java errors?** Confirm you're using JDK 8 or higher and files are in the correct structure.
+- **Drawing not registering?** Use mouse clicks to fill squares; reset the grid to retry.
+
+---
+
+## 🙌 Acknowledgments
+
+- **Java AWT** – For the lightweight UI framework
+- **Neural Network community** – For tutorials and foundational math
+- **Professor T. Henry** – For project support and feedback
+- **Open source inspiration** – For general architecture ideas and optimizations
