@@ -86,6 +86,19 @@ java -cp bin Main
 
 ---
 
+## 🖼️ Demo
+
+Below is a visual demo of the Handwriting Recognition System in action:
+
+<p align="center">
+  <img src="demo images/training.png" alt="Training Mode" width="400"/>
+  &nbsp;&nbsp;
+  <img src="demo images/testing.png" alt="Testing Mode" width="400"/>
+</p>
+
+- **Left:** Training mode, where the neural network is learning to recognize new characters.
+- **Right:** Testing mode, where the trained network predicts user-drawn characters.
+
 ## 🙌 Acknowledgments
 
 - **Java AWT** – For the lightweight UI framework
