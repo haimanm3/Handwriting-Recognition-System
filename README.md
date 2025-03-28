@@ -66,7 +66,7 @@ Handwriting-Recognition-System/
 
 ### ▶️ Step 2: Run the Application
 
-#### ✅ Option 1: Using Terminal/Command Prompt
+#### Option 1: Using Terminal/Command Prompt
 
 1. Open your terminal or command prompt.
 2. Navigate to the folder containing the `.jar` file.
@@ -78,7 +78,7 @@ java -jar Handwriting Recognition System.jar
 
 ---
 
-#### ✅ Option 2: Without Terminal (Double-click)
+#### Option 2: Without Terminal (Double-click)
 
 1. Navigate to the folder containing `Handwriting Recognition System.jar`.
 2. Double-click the file to run it.
@@ -89,7 +89,7 @@ java -jar Handwriting Recognition System.jar
 
 ---
 
-#### ✅ Option 3: Using an IDE
+#### Option 3: Using an IDE
 
 1. Open your Java IDE (NetBeans, IntelliJ, Eclipse).
 2. Create a new project and add the `.jar` as an external library or run configuration.
