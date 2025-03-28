@@ -95,6 +95,14 @@ java -jar Handwriting Recognition System.jar
 2. Create a new project and add the `.jar` as an external library or run configuration.
 3. Run the project or create a custom run config pointing to the `.jar`.
 
+(Run from Source Code)
+
+1. Open your Java IDE (e.g., IntelliJ, NetBeans, Eclipse).
+2. Create a **new Java project**.
+3. Import the `.java` files from the `src/` folder into the project.
+4. Set `GUI.java` as the main entry point (the file with the `main()` method).
+5. Build and run the project.
+
 ---
 
 ### 🧯 Troubleshooting
