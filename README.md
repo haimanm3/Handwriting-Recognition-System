@@ -122,9 +122,9 @@ java -jar Handwriting Recognition System.jar
 Below is a visual demo of the Handwriting Recognition System in action:
 
 <p align="center">
-  <img src="demo images/training.png" alt="Training Mode" width="460"/>
+  <img src="demo images/training.png" alt="Training Mode" width="450"/>
   &nbsp;&nbsp;
-  <img src="demo images/testing.png" alt="Testing Mode" width="460"/>
+  <img src="demo images/testing.png" alt="Testing Mode" width="450"/>
 </p>
 
 - **Left:** Training mode, where the neural network is learning to recognize new characters.
